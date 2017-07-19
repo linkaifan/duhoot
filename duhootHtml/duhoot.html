@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>duhoot</title>
+	<link href="../../Bootstrap/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="../duhootCss/duhoot.css">
+</head>
+<body>
+	<header>
+		<div class="container-fluid">
+		  <div class="navbar  navbar-default navbar-fixed-top hidden-xs" role="navigation" >
+			  <div class="row Row">
+			    <div class="col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1">
+			    	<img src="../duhootImgs/Vector Smart Object.png" alt="logo" title="logo"/>
+			    </div>
+				<div class="col-md-8 col-md-offset-1 col-sm-8 col-sm-offset-1" >
+				  <div class="row">
+					<div class="col-md-8 col-sm-8">
+						<ul class="nav navbar-nav" id='navBar'>
+		    		        <li><a href="##">REALITY</a></li>
+		    		        <li><a href="##">LIVING</a></li>
+		    		        <li><a href="##">EDUCATION</a></li>
+		    		        <li><a href="##">ENTERTAINMENT</a></li>
+		    		        <li><a href="##">MOBILITY</a></li>		    		        		    		        
+	    		 		</ul>  	    		 	 
+	    		 	</div> 
+	    		 	<div class="col-md-4 col-sm-4"  >
+	    		 		 <p id='navText'>
+	    		 				<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+	    		 		 </p>  
+	    		 		<p id='navLogin'>
+	    		 			<span class="glyphicon glyphicon-user" aria-hidden="true"></span>&nbsp;&nbsp;&nbsp;Login
+	    		 		</p>
+	    		 	</div>							
+	    		  </div>	 	
+			    </div>
+			  </div>
+		  </div>
+		</div>
+	</header>
+	<div id='Search'>
+		<div id="fixForm">
+			<p>What are you looking for?</p>\
+			<div class="drop Drop1">&nbsp;&nbsp;&nbsp;&nbsp;Dubai&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<span class="glyphicon glyphicon-chevron-down">&nbsp;&nbsp;</span>
+				<ul>
+					<li>D</li>
+					<li>u</li>
+					<li>b</li>
+				</ul>
+			</div>	
+			<div class="drop Drop2">&nbsp;&nbsp;&nbsp;&nbsp;Eduction&nbsp;&nbsp;&nbsp;&nbsp;
+				<span class="glyphicon glyphicon-chevron-down">&nbsp;&nbsp;</span>
+				<ul>
+					<li>Primary School</li>
+					<li>Hight School</li>
+					<li>University</li>
+				</ul>
+			</div>
+			<input type="text" class="drop Input1" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;Keyword,name,date,..."/>
+			<button id='SearchBtn'>Search</button>
+
+		</div>	
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+		  <!-- Indicators -->
+		  <ol class="carousel-indicators">
+		    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+		  </ol>
+
+		  <!-- Wrapper for slides -->
+		  <div class="carousel-inner" role="listbox">
+		    <div class="item active">
+		      <img src="../duhootImgs/Search-bg.png" alt="">
+		      <div class="carousel-caption">
+		        
+		      </div>
+		    </div>
+		    <div class="item">
+		      <img src="../duhootImgs/Search-bg.png" alt="...">
+		      <div class="carousel-caption">
+		      </div>
+		    </div>
+		    <div class="item">
+		      <img src="../duhootImgs/Search-bg.png" alt="...">
+		      <div class="carousel-caption">
+		      </div>
+		    </div>
+		  </div>
+
+		  <!-- Controls -->
+		  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+		    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+		    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		</div>	
+	</div>
+	<div id="Filter">
+		<nav class="navbar navbar-default">
+		  <div class="container-fluid">
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav" id='UlNav'>
+		        <li class="active"><a href="#">RECOMMENDED <span class="sr-only">(current)</span></a></li>
+		        <li><a href="#">LATEST</a></li>
+		        <li><a href="">HIGHLIGHTS</a></li>		         
+		      </ul>
+		      <div class="btn-group BTN" id='btn-group1'>
+		        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">&nbsp;&nbsp;DUBAI&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-chevron-down"></span>&nbsp;
+		        </button>
+		        <ul class="dropdown-menu">
+		          <li><a href="#">Action</a></li>
+		          <li><a href="#">Another action</a></li>
+		          <li><a href="#">Something else here</a></li>
+		          <li role="separator" class="divider"></li>
+		          <li><a href="#">Separated link</a></li>
+		        </ul>
+		      </div>	
+		      <div class="btn-group BTN" id='btn-group2'>
+		        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">&nbsp;&nbsp;HIDE MAP &nbsp;&nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-map-marker"></span>&nbsp;
+		        </button>
+		      </div>			
+		      <ul class="nav navbar-nav navbar-right" id='BTNRight'>
+		      	<li>FILTER&nbsp;:</li>
+		      	<li><img src="../duhootImgs/img1.png"/></li>
+		      	<li><img src="../duhootImgs/img2.png"/></li>
+		      	<li><img src="../duhootImgs/img3.png"/></li>
+		      	<li><img src="../duhootImgs/img4.png"/></li>
+		      	<li><img src="../duhootImgs/img5.png"/></li>      	
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+	</div>
+	<main>
+		<div class="popUp">
+			<span class="glyphicon glyphicon-remove"></span>
+			<img src="../duhootImgs/p2255028780.webp.jpg" />
+		</div>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1 " id='mainContainer'>
+					<div class="row rowImg1">
+						<div class="col-md-3 col-sm-6">
+							<img src="../duhootImgs/mainImg1.1.png" alt="">
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<img src="../duhootImgs/mainImg1.2.png" alt="">
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<img src="../duhootImgs/mainImg1.3.png" alt="">
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<img src="../duhootImgs/mainImg1.4.png" alt="">
+						</div>
+					</div>
+					<div class="row rowImg2" >
+						<div class="col-md-6">
+							<img src="../duhootImgs/mainImg2.1.png" alt="">
+						</div>
+						<div class="col-md-6">
+							<img src="../duhootImgs/mainImg2.2.png" alt="">
+						</div>
+					</div>
+					<div class="row rowImg3">
+						<div class="col-md-3 col-sm-6">
+							<img src="../duhootImgs/mainImg1.1.png" alt="">
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<img src="../duhootImgs/mainImg1.2.png" alt="">
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<img src="../duhootImgs/mainImg1.3.png" alt="">
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<img src="../duhootImgs/mainImg1.4.png" alt="">
+						</div>
+					</div>
+					<div class="row rowImg4" >
+						<div class="col-md-6">
+							<img src="../duhootImgs/mainImg2.2.png" alt="">
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<img src="../duhootImgs/mainImg1.1.png" alt="">
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<img src="../duhootImgs/mainImg1.2.png" alt="">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-2 col-md-offset-5">
+							<p><a id="LearnMore" href="#">Learn more</a>&nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-arrow-right" id='Right-arrow'></span></p>
+						</div>
+					</div>
+					<div class="row mainLine">
+						<div class="col-md-10 col-md-offset-1">
+							<span id='mainLine'></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<div id="offer">
+		<p>What can DuHoot offer to you<br/>
+		<small>Etiam cursus ipsum quis enim faucibus </small>
+		</p>
+		<div class="center-block offerImgBar">
+
+			<ul>
+				<li><img src="../duhootImgs/offerHome.png" alt=""></li>
+				<li><img src="../duhootImgs/offerGirl.png" alt=""></li>
+				<li><img src="../duhootImgs/offerMap.png" alt=""></li>
+				<li><img src="../duhootImgs/offerMusic.png" alt=""></li>
+				<li><img src="../duhootImgs/offerBus.png" alt=""></li>
+			</ul>
+			<p>Reality</p>
+			<div id='offerLine' class="center-block"></div>
+			<div class="center-block" >
+				<img src="../duhootImgs/offerBootom.png" alt=""/>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<p>Subscribe to our newsletter</p>
+		<div class="footerForm">
+			<span class="footerE glyphicon glyphicon-envelope"></span>
+			<input type="email" name="" placeholder='&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;your email com'>
+			<button class="footerBtn">Subscribe</button>
+		</div>
+		<div class="container-fluid footerRow">
+			<div class="row">
+				<div class="col-md-2 col-sm-5 col-sm-offset-1">
+					<h4>Ipsum quis</h4>
+					<p>Aliquam quis<br/>Pulvinar purus<br/>Etiam cursus<br/>Ipsum quis<br/>Enim faucibus</p>
+				</div>
+				<div class="col-md-2 col-md-offset-1 col-sm-5 col-sm-offset-1">
+					<h4>Ipsum quis</h4>
+					<p>Aliquam quis<br/>Pulvinar purus<br/>Etiam cursus<br/>Ipsum quis<br/>Enim faucibus</p>
+				</div>
+				<div class="col-md-3 col-md-offset-1 col-sm-10 col-sm-offset-1">
+					<h4 id='Follow'>Follow us</h4>
+					<ul>
+						<li><a href="#"><img src="../duhootImgs/f.png"/></a></li>
+						<li><a href="#"><img src="../duhootImgs/birl.png"/></a></li>
+						<li><a href="#"><img src="../duhootImgs/g.png"/></a></li>
+						<li><a href="#"><img src="../duhootImgs/youtube.png"/></a></li>
+					</ul>
+					<h5>Copyright © All Rights reserved</h5>
+				</div>
+			</div>
+		</div>
+
+	</footer>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="../../jQ/JQ1.9.1.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../../Bootstrap/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src='../duhootJs/duhoot.js'></script>
+</body>
+</html>
+
+
+

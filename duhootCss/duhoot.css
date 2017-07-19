@@ -1,0 +1,420 @@
+body,html{
+	height: 100%;
+	width: 100%;
+}
+/*header开始*/
+header{
+	background: #ffffff;
+	height: 7.4rem;
+	width: 100%;
+
+}
+.Row, #navBar{
+	height: 7.4rem;
+	text-align: center;
+	line-height: 7.4rem;
+}
+
+#navBar > * {
+	height: 7.4rem;
+	text-align: center;
+	line-height: 7.4rem;
+	margin: 0;
+}
+#navBar a{
+	margin-top: 1.2rem;
+	width: 100%;
+}
+#navText{
+	background: #e2dee0;
+	color: white;
+	line-height: 7.4rem;
+	height: 7.4rem;
+	width: 28%;
+	text-align: center;
+	font-size: 1.8rem;
+	display: inline-block;
+	margin-bottom: 0;
+}
+#navLogin{
+	color: white;
+	background: #e94e38;
+	margin: 0;
+	display: inline-block;
+	width: 70%;
+}
+
+/* header结束*/
+/*Search开始*/
+#Search{
+	position: relative;
+}
+#Search, #carousel-example-generic, .carousel-inner{
+	width: 100%;
+	height: 45rem;
+}
+#Search .carousel-inner img{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+#Search #fixForm{
+	position: absolute;
+	z-index: 10;
+	width: 40%;
+	left: 50%;
+	margin-left: -20%;
+	height: 100%;
+}
+#Search #fixForm p:first-child{
+	text-align: center;
+	font-size: 3rem;
+	font-family: "Gotham";
+	color: rgb(255, 255, 255); 
+	margin-top: 12%;
+}
+#SearchBtn{
+	position: absolute;
+	bottom: 20%;
+	left: 50%;
+	margin-left: -10%;
+	background: #e94e38;
+	color: white;
+	border: 0;
+	width: 20%;
+	height: 11%;
+	border-radius: 20px;
+	font-size: 1.8rem;
+	font-family: "Gotham";
+	color: rgb(255, 255, 255);
+}
+#SearchBtn:focus{
+	 outline: none;
+}
+.drop{
+	width: 35%;
+	height: 4rem;
+	line-height: 4rem;
+	font-size: 1.8rem;
+	font-family: "Gotham";
+	color: rgb(255, 255, 255);
+	border: 1px solid rgba(255, 255, 255,0.102);
+	background-color: rgba(255, 255, 255, 0.102);
+	border-radius: 30px;
+}
+.drop span{
+	font-size: 1.2rem;
+	float: right;
+	line-height: 4rem;
+}
+.Drop1{
+	position: absolute;
+	top: 35%;
+	left: 15%;
+}
+.Drop2{
+	position: absolute;
+	top: 35%;
+	left: 55%;
+}
+.Input1{
+	position: absolute;
+	width: 75%;
+	top: 50%;
+	left: 15%;
+	height: 4.5rem;
+	font-size: 1.8rem;
+	font-family: "Gotham";
+	color: white;
+}
+.Input1:focus{
+	outline: none;
+	text-indent: 2.3rem;
+}
+input::-webkit-input-placeholder{			
+    color: white;opacity:1;
+}
+.drop ul{
+	border: 1px solid rgba(255, 255, 255,0.102);
+	background-color: rgba(255, 255, 255, 0.102);
+	border-radius: 15px;
+	z-index: 10;
+	padding: 0;
+	width: 100%;
+	display: none;
+}
+.drop ul li{
+	list-style: none;
+	width: 100%;
+	text-indent: 2rem;
+}
+.drop ul li:hover{
+	background: gray;
+}
+/*Serch结束*/
+/*Filter开始*/
+#Filter{
+	width: 100%;
+	height: 6.5rem;
+	background: #ffffff;
+}
+#Filter nav{
+	border: 0;
+	background: #ffffff;
+	font-family: "Gotham";
+	color: rgb(233, 78, 56);
+}
+#UlNav{
+	margin-left: 10%;
+	margin-top: 0.6%;
+}
+#Filter .active a{
+	color: red;
+	background: #fff;
+}
+.BTN{
+	background-color: rgba(86, 99, 117, 0);
+	font-family: "Gotham";
+  	margin:1.5rem 0 0 0;
+}
+.BTN button{
+	border: 1px solid rgb(150, 166, 167);
+	border-radius: 30px;
+}
+#btn-group1 {
+	margin-left: 7%;
+	margin-right: 1%;
+	color: red;
+}
+#btn-group1 button{
+	color: red;
+}
+#btn-group1 button span{
+	color: #96a6a7;
+	font-size: 1.2rem;
+}
+#btn-group2 button {
+	color: white;
+	background: #1baf5d;
+}
+#btn-group2 button span{
+	font-size: 1.2rem;
+}
+#BTNRight{
+	color: white;
+	margin-right: 10%;
+	line-height:6.5rem;
+	height: 6.5rem;
+}
+#BTNRight li{
+	margin:0 1rem;
+}
+#BTNRight li p {
+	width: 5%;
+	height: 5%;
+}
+#BTNRight li:first-child{
+	color: #96a6a7;
+}
+/*Filter结束*/
+/*main开始*/
+main{
+	background: #f3f1f2;
+	position: relative;
+}
+.popUp{
+	position: absolute;
+	width: 80%;
+	margin-left: -40%;
+	left: 50%;
+	top: 5%;
+	height: 70%;
+	z-index: 12;
+	display: none;
+
+}
+.popUp span{
+	position: absolute;
+	right: 10%;
+	top: 10%;
+	font-size: 5rem;
+	color: black;
+	z-index: 20;
+
+}
+.popUp img{
+	width: 100%;
+	height: 100%;
+}
+#mainContainer{
+	padding:5rem 6%;
+}
+.rowImg2, .rowImg4{
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+}
+#mainLine{
+	background-color: #e2dee0;
+	height: 1px;
+	width: 100%;
+	display: block;
+}
+.mainLine{
+	margin-top: 4rem;
+	margin-bottom: 8.6rem;
+}
+#Right-arrow{
+	font-size: 1rem;
+	color: rgb(86, 99, 117);
+}
+#LearnMore{
+	font-size: 18px;
+	font-family: "Gotham";
+	color: rgb(86, 99, 117);
+	text-decoration: underline;
+}
+main .col-md-3 img,.col-md-6 img{
+	width: 100%;
+	height: 100%;
+}
+/*main结束*/
+/*offer开始*/
+#offer{
+	width: 100%;
+	height: 65rem;
+	background: #f3f1f2;
+	text-align: center;
+	font-size: 2.2rem;
+	font-family: "Gotham";
+	color: rgb(86, 99, 117);
+}
+#offer p:first-child small{
+	font-size: 1.6rem;
+	font-family: "Gotham";
+	color: rgb(150, 166, 167);
+}
+.offerImgBar{
+	margin-top: 5rem;
+
+}
+.offerImgBar ul li{
+	display: inline-block;
+	margin: 3rem 2rem;
+	z-index: 10;
+} 
+.offerImgBar ul li img:hover{
+	background: gray;
+} 
+.offerImgBar p{
+	font-size: 2.4rem;
+	font-family: "Gotham";
+	color: rgb(27, 175, 93);
+}
+#offerLine{
+	width: 56%;
+	height: 1px;
+	background: #e2dee0;
+	position: relative;
+	top: -13.5rem;
+	z-index: 1;
+	margin-bottom: 3rem;
+
+}
+/*offer结束*/
+/*footer开始*/
+footer{
+	width: 100%;
+	height: 55rem;
+	background: url(../duhootImgs/footerBG.png) repeat-y;
+	background-size: 100%;
+	position: relative;
+	padding-top: 4%;
+}
+footer p:first-child{
+	font-size: 2.4rem;
+	font-family: "Gotham";
+	color: rgb(255, 255, 255);
+	text-align: center;
+}
+footer .footerForm{
+	position: absolute;
+	top: 25%;
+	width: 34%;
+	left: 50%;
+	margin-left: -17%;
+	height: 6rem;
+}
+footer .footerForm input{
+	width: 100%;
+	height: 100%;
+	border: 1px solid rgb(255, 255, 255);
+	border-radius: 30px;
+	background-color: rgba(255, 255, 255, 0.102);
+	font-size: 1.8rem;
+	font-family: "Gotham";
+	color: rgb(255, 255, 255);
+	text-indent: 5rem;
+}
+footer .footerForm input:focus,.footerBtn:focus{
+	outline: none;
+}
+.footerE{
+	position: absolute;
+	top: 35%;
+	font-size: 2rem;
+	color: white;
+	left: 5%;
+}
+.footerBtn{
+	position: absolute;
+	right: 0.5%;
+	height: 90%;
+	top: 5%;
+	width: 25%;
+	background-color: rgb(233, 78, 56);
+	border-radius: 30px;
+	border: 0;
+	font-size: 1.4rem;
+	font-family: "Gotham";
+	color: rgb(255, 255, 255);
+}
+.footerRow{
+	position: absolute;
+	bottom: 0;
+	height: 50%;
+	width: 100%;
+}
+.footerRow h4{
+	font-size: 1.6rem;
+	font-family: "Gotham";
+	color: rgb(255, 255, 255);
+	text-align: center;
+}
+#Follow{
+	text-align: left;
+	padding-left: 22%;
+}
+.footerRow p{
+	font-size: 1.4rem;
+	font-family: "Gotham";
+	color: rgb(192, 190, 188);
+	padding-left: 30%;
+	margin-top: 10%;
+}
+footer ul li {
+	text-decoration: none;
+	display:inline-block;
+	margin-left: 10%;
+	margin-top: 5%;
+}
+footer h5{
+	padding-left: 20%;
+	font-size: 1.4rem;
+	font-family: "Gotham";
+	color: rgb(192, 190, 188);
+	margin-top: 12%;
+}
+/*footer结束*/
+
+
+
